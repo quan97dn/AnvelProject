@@ -1,0 +1,20 @@
+<h1>Users List</h1>
+
+<table class="table" >
+	<thead>
+		<tr>
+			<td>ID</td>
+			<td>FullNames</td>
+			<td>Email</td>
+			<td>Birthday</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr *ngFor="let item of users" >
+			<td>{{ item.id }}</td>
+			<td>{{ item.fullname }}</td>
+			<td>{{ item.email }}</td>
+			<td>{{ item.birthday }}</td>
+		</tr>
+	</tbody>
+</table>
