@@ -19,6 +19,8 @@ Route::get('/home', 'AngularController@serve');
 
 Route::get('/users', 'AngularController@serve');
 
+Route::get('/usersadd', 'AngularController@serve');
+
 /* ================================ Routers API Laravel ======================================== */
 
 

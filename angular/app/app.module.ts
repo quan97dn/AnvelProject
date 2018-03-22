@@ -10,7 +10,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 // Components
 import { AppComponent } from './app.component';
+
 import { UsersComponent } from './components/users/users.component';
+import { UsersAddComponent } from './components/users/users-add/users-add.component';
+
 import { HomeConponent } from './components/home/home.component';
 import { Page404Conponent } from './components/errorPage/404/404.component';
 
@@ -24,6 +27,7 @@ import { UsersService } from './services/users.service';
     AppComponent,
     UsersComponent,
     HomeConponent,
+    UsersAddComponent,
     Page404Conponent
   ],
   imports: [

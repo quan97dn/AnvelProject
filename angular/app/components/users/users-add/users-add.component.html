@@ -1,0 +1,17 @@
+<form class="form" #f="ngForm" (ngSubmit)="saveForm(f.value)" >
+	<div class="form-group" >
+		<label for="">Fullname :</label>
+		<input type="text" name="fullname" class="form-control" ngModel />
+	</div>
+	<div class="form-group" >
+		<label for="">Email :</label>
+		<input type="text" name="email" class="form-control" ngModel />
+	</div>
+	<div class="form-group" >
+		<label for="">Birthday :</label>
+		<input type="date" name="birthday" class="form-control" ngModel />
+	</div>
+	
+	<button type="submit" class="btn btn-info" >Add</button>
+	<button type="button" class="btn btn-danger" (click)="GotoUsers()" >Go Back</button>
+</form>
